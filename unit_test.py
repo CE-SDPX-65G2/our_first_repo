@@ -5,8 +5,8 @@ from app import app
 class AppTestCase(unittest.TestCase):
     def test_hello_with_string(self):
         # test hello
-        res = app.hello("Mais")
-        self.assertEqual(res, "Hello, Mais")
+        res = app.hello("Maism")
+        self.assertEqual(res, "Hello, Maism")
 
     def test_hello_with_number(self):
         # test hello
